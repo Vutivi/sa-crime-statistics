@@ -16,7 +16,7 @@ a more interactive manner.
 
 * heroku apps:create sa-crime-stats
 * heroku buildpacks:add heroku/nodejs --index 1
-* heroku buildpacks:add heroku/ruby --index 2
+* heroku buildpacks:add https://github.com/bundler/heroku-buildpack-bundler2 --index 2
 * git add .
 * git commit -m "deploy to heroku"
 * git push heroku master
