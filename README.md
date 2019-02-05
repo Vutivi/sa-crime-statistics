@@ -4,14 +4,23 @@ SA crime stats app consumes the api https://data.code4sa.org/resource/fgg4-qjnk.
 to get the crime statistics in South Africa and computes the data to represent it in
 a more interactive manner.
 
-* Instructions to run locally
+# Instructions to run locally
 
-git clone https://github.com/Vutivi/sa-crime-stats.git
-cd sa-crime-stats
-npm install
-bundle install
-rake start
+* git clone https://github.com/Vutivi/sa-crime-statistics.git
+* cd sa-crime-stats
+* npm install
+* bundle install
+* rake start
 
-* Production link
+# Deploy to production
 
-https://sa-crime-statistics.herokuapp.com/
+* heroku apps:create sa-crime-stats
+* heroku buildpacks:add heroku/nodejs --index 1
+* heroku buildpacks:add heroku/ruby --index 2
+* git add .
+* git commit -m "deploy to heroku"
+* git push heroku master
+
+# Production link
+
+https://sa-crime-stats.herokuapp.com/
