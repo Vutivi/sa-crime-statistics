@@ -23,4 +23,4 @@ a more interactive manner.
 
 # Production link
 
-https://sa-crime-stats.herokuapp.com/
+https://sa-crime-statistics.herokuapp.com/
