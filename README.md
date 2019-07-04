@@ -1,6 +1,6 @@
 # README
 
-SA crime stats app consumes the api https://data.code4sa.org/resource/fgg4-qjnk.json/
+SA crime stats app consumes the api https://data.code4sa.org/resource/fgg4-qjnk.json/[Not available anymore]
 to get the crime statistics in South Africa and computes the data to represent it in
 a more interactive manner.
 
